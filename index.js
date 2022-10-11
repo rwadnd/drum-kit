@@ -5,6 +5,11 @@ for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
     })
 }
 
+for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
+  document.querySelectorAll(".drum")[i].addEventListener("touchstart", function(){
+    handleClick(this.innerHTML)
+  })
+}
 
 
 document.addEventListener("keydown", function(event){
