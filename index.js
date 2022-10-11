@@ -41,7 +41,7 @@ function handleClick(key){
       break;
 
       case "k":
-      var kick_bass = new Audio("sounds/kick-bass.mp3")
+      var kick_bass = new Audio("sounds/crash.mp3")
       kick_bass.play();
       break;
 
