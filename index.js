@@ -1,9 +1,4 @@
 
-for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
-    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
-      handleClick(this.innerHTML)
-    })
-}
 
 for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
   document.querySelectorAll(".drum")[i].addEventListener("touchstart", function(){
