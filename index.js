@@ -1,22 +1,15 @@
 
 
+
 for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
-  document.querySelectorAll(".drum")[i].addEventListener("touchstart", function(){
+  document.querySelectorAll(".drum")[i].addEventListener("click", function(){
     handleClick(this.innerHTML)
   })
 }
 
-
 document.addEventListener("keydown", function(event){
   handleClick(event.key)
 })
-
-
-
-
-
-
-
 
 
 function handleClick(key){
